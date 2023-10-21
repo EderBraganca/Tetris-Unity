@@ -1,0 +1,53 @@
+# Ignorar arquivos e diretórios gerados automaticamente
+[Tt]emp/
+[Ll]ibrary/
+[Oo]bj/
+[Bb]uild/
+[^\.\.]/[Ll]ibrary/
+[^\.\.]/[Tt]emp/
+[^\.\.]/[Oo]bj/
+[^\.\.]/[Bb]uild/
+
+# Ignorar arquivos específicos
+*.log
+*.metagen
+*.userprefs
+*.pidb
+*.suo
+*.sln
+*.user
+*.unityproj
+*.booproj
+*.user
+*.tmproj
+*.pbxuser
+*.orig
+*.apk
+*.unitypackage
+
+# Ignorar arquivos temporários
+*.bak
+*.swp
+*.swo
+*.swm
+*.swl
+*.p4
+*.csproj
+*.pidb
+*.pidb.meta
+*.suo
+*.suo.meta
+*.sln.meta
+
+# Ignorar arquivos de build
+/[Bb]uilds/
+/[Ll]ogs/
+
+# Ignorar arquivos do sistema
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
